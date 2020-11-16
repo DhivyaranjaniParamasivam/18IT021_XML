@@ -1,0 +1,125 @@
+{
+   "title": "Vocabulary Quiz",
+   "items": [
+      {
+         "question": "Click the best synonym for blind",
+         "answer": [
+            {
+               "@correct": "y",
+               "#text": "cannot see"
+            },
+            "seen",
+            "private",
+            "watch"
+         ]
+      },
+      {
+         "question": "Select the most appropriate synonym of the given word.\nFleeting",
+         "answer": [
+            "Transparent",
+            {
+               "@correct": "y",
+               "#text": "Transient"
+            },
+            "Tranquil",
+            "Tepid"
+         ]
+      },
+      {
+         "question": "Select the wrongly spelt word.",
+         "answer": [
+            "Deleterious",
+            {
+               "@correct": "y",
+               "#text": "Connivence"
+            },
+            "Chauvinist",
+            "Encomium"
+         ]
+      },
+      {
+         "question": "Which is a synonym of ethereal?",
+         "answer": [
+            "wet",
+            "lonely",
+            "silky",
+            {
+               "@correct": "y",
+               "#text": "airy"
+            }
+         ]
+      },
+      {
+         "question": "We paid the shopkeeper………cash.",
+         "answer": [
+            {
+               "@correct": "y",
+               "#text": "in"
+            },
+            "on",
+            "with",
+            "for"
+         ]
+      },
+      {
+         "question": "Select the most appropriate antonym of the given word.\nLax",
+         "answer": [
+            {
+               "@correct": "y",
+               "#text": "Firm"
+            },
+            "Careless",
+            "Loot",
+            "Fiction"
+         ]
+      },
+      {
+         "question": "Select the wrongly spelt word.",
+         "answer": [
+            "Excitement",
+            "Attitude",
+            "beautiful",
+            {
+               "@correct": "y",
+               "#text": "Vaccum"
+            }
+         ]
+      },
+      {
+         "question": "Select the word which means the same as the group of words given.\nSecret or illegal religious meeting",
+         "answer": [
+            {
+               "@correct": "y",
+               "#text": "Conventicler"
+            },
+            "Carrion",
+            "Savant",
+            "Haggle"
+         ]
+      },
+      {
+         "question": "Select the word which means the same as the group of words given.\nA story that expresses ideas through symbols",
+         "answer": [
+            "Almanac",
+            "Axiom",
+            {
+               "@correct": "y",
+               "#text": "Allegory"
+            },
+            "Anomaly"
+         ]
+      },
+      {
+         "question": "Select the most appropriate synonym of the given word.\nGuile",
+         "answer": [
+            "Hot",
+            "Honest",
+            {
+               "@correct": "y",
+               "#text": "Chicanery"
+            },
+            "Charming"
+         ]
+      }
+   ]
+}

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Meet My tutor</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">MEET MY TUTOR</a>
+                </div>
+				
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About Course and mentor</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Course- Learn English</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Grade</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <h1 class="home__title"><span>ENG</span><br>LISH.</h1>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
+                    </div>
+
+                    <img src="assets/img/dhivya.jpeg" alt="" class="home__img">
+                </div>
+            </section>
+<body>
+<h2>English Student(user) Details</h2>
+<p id="demo"></p>
+<script>
+var txt = '{"name":"Sarvesh", "age":22, "city":"New York"}'
+var obj = JSON.parse(txt);
+document.getElementById("demo").innerHTML = "Name : "+ obj.name + "<br> " +"Age" + obj.age;
+</script>
+</body>
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/dhivya.jpeg" alt="">
+                    </div>
+
+
+                    <div>
+                        <h2 class="about__subtitle">I'am Dhivyaranjani P</h2>
+                        <span class="about__profession">English Professor</span>
+                        <p class="about__text">The Course is about to test your English knowlegde.</p><p>Module 1: Dictionary<br> Module 2: Vocabulary   <br>     Module 3 : Grammer <br> Modular 4:IOELTS Exam Question Paper</p>
+
+                        <div class="about__social">
+                            <a href="#" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                            <a href="#" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+                            <a href="#" class="about__social-icon"><i class='bx bxl-dribbble' ></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+			<h2 class="section-title">MODULE 1</h2>
+                <h2 class="section-title">My English Dictionary</h2>
+				<style>
+table,th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 5px;
+}
+</style>
+<body>
+
+<button type="button" onclick="loadXMLDoc()">Get My Dictionary</button>
+<br><br>
+<table id="demo"></table>
+
+<script>
+function loadXMLDoc() {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
+    }
+  };
+  xmlhttp.open("GET", "dictionary.xml", true);
+  xmlhttp.send();
+}
+function myFunction(xml) {
+  var i;
+  var xmlDoc = xml.responseXML;
+  var table="<tr><th>word</th><th>meaning</th></tr>";
+  var x = xmlDoc.getElementsByTagName("catalog/cd");
+  for (i = 0; i <x.length; i++) { 
+    table += "<tr><td>" +
+    x[i].getElementsByTagName("word")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("meaning")[0].childNodes[0].nodeValue +
+    "</td></tr>";
+  }
+  document.getElementById("demo").innerHTML = table;
+}
+</script>
+
+
+
+</head>
+
+<p>
+	<br><button class="btn" style="width:90% background-color : aliceblue"><i class="fa fa-download"></i> Download the Dictionary</button></p>
+	
+            </section>
+
+            <!--===== PORTFOLIO =====-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section-title">Grade</h2>
+<script>
+function loadXMLDoc() {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
+    }
+  };
+  xmlhttp.open("GET", "grade.xml", true);
+  xmlhttp.send();
+}
+function myFunction(xml) {
+
+  var i;
+  var xmlDoc = xml.responseXML;
+  var table="<tr><th>Module</th><th>Mark</th><th>Grade</th></tr>";
+  var x = xmlDoc.getElementsByTagName("grade/gr");
+  for (i = 0; i <x.length; i++) { 
+    table += "<tr><td>" +
+    x[i].getElementsByTagName("module")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("mark")[0].childNodes[0].nodeValue +
+    "</td></tr>";
+	x[i].getElementsByTagName("rank")[0].childNodes[0].nodeValue +
+    "</td></tr>";
+  }
+  document.getElementById("demo").innerHTML = table;
+}
+</script>
+
+
+         
+            </section>
+        </main>
+		<!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">EMAIL</h3>
+                        <span class="contact__text">dhivyaranjani25@gmail.com</span>
+
+                        <h3 class="contact__subtitle">PHONE</h3>
+                        <span class="contact__text">90425 12467</span>
+
+                        <h3 class="contact__subtitle">ADDRESS</h3>
+                        <span class="contact__text">Tamilnadu,India</span>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Name" class="contact__input">
+                            <input type="mail" placeholder="Email" class="contact__input">
+                        </div>
+
+                        <textarea name="" id="" cols="0" rows="10" placeholder="Send Your Doubts" class="contact__input"></textarea>
+
+                        <input type="submit" value="Submit" class="contact__button">
+                    </form>
+                </div>
+            </section>
+        </main>
+<body>
+<h2>Schedule time for Learn_English</h2>
+<p id="demo1"></p>
+<script>
+var text = '{"name":"John", "birth":"2020-12-14", "city":"New York"}';
+var obj = JSON.parse(text);
+obj.birth = new Date(obj.birth);
+document.getElementById("demo1").innerHTML = "Study time for Learn_English Course   "+"<br>" +obj.birth; 
+</script>
+</body>
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">MEET MY TUTOR</h2>
+                    <p class="footer__text">Course- Learn English</p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">EXPLORE</h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#about" class="footer__link">About</a></li>
+                        <li><a href="#skills" class="footer__link">Course-Learn English</a></li>
+                        <li><a href="#portfolio" class="footer__link">Grade</a></li>
+                        <li><a href="#Contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__data">
+                    <h2 class="footer__title">FOLLOW</h2>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter' ></i></a>
+                </div>
+
+
+            </div>
+			
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

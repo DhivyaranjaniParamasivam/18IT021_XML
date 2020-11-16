@@ -1,0 +1,21 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT grade (gr)+>
+<!ATTLIST grade
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT gr (module,mark,rank)>
+<!ATTLIST gr
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT module (#PCDATA)>
+<!ATTLIST module
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT mark (#PCDATA)>
+<!ATTLIST mark
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT rank (#PCDATA)>
+<!ATTLIST rank
+  xmlns CDATA #FIXED ''>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type ="text/xsl" href ="style.xsl"?>
+
+<catalog>
+  <cd>
+    <word>Abjure</word>
+    <meaning>Formally reject </meaning>
+    <pronuncation>USA</pronuncation>
+    <antonyms>Columbia</antonyms>
+   
+  </cd>
+  
+  <cd>
+    <word>Fatuous</word>
+    <meaning>Devoid of intelligence</meaning>
+    <pronuncation>UK</pronuncation>
+    <antonyms>CBS Records</antonyms>
+    
+  </cd>
+  
+  <cd>
+    <word>Subjugate</word>
+    <meaning>Make subservient</meaning>
+    <pronuncation>USA</pronuncation>
+    <antonyms>RCA</antonyms>
+    
+  </cd>
+  
+  <cd>
+    <word>Preclude</word>
+    <meaning>Make impossible</meaning>
+    <pronuncation>UK</pronuncation>
+    <antonyms>Virgin records</antonyms>
+    
+  </cd>
+  <cd>
+    <word>Tirade</word>
+    <meaning>A speech of violent denunciation</meaning>
+    <pronuncation>EU</pronuncation>
+    <antonyms>BMG</antonyms>
+   
+  </cd>
+  <cd>
+    <word>Cogent</word>
+    <meaning>Powerfully persuasive</meaning>
+    <pronuncation>UK</pronuncation>
+    <antonyms>Polydor</antonyms>
+    
+  </cd>
+  <cd>
+    <word>Beguile</word>
+    <meaning>Influence by slyness</meaning>
+    <pronuncation>UK</pronuncation>
+    <antonyms>CBS</antonyms>
+    
+  </cd>
+  <cd>
+    <word>Foil</word>
+    <meaning>Hinder or Prevent</meaning>
+    <pronuncation>UK</pronuncation>
+    <antonyms>Pickwick</antonyms>
+    
+  </cd>
+  <cd>
+    <word>Ebullient</word>
+    <meaning>Joyously unrestrained</meaning>
+    <pronuncation>EU</pronuncation>
+    <antonyms>Polydor</antonyms>
+   
+  </cd>
+  <cd>
+    <word>Rescind</word>
+    <meaning>Cancel officially</meaning>
+    <pronuncation>USA</pronuncation>
+    <antonyms>Atlantic</antonyms>
+    
+  </cd>
+  <cd>
+    <word>Upbraid</word>
+    <meaning>Express criticism towards</meaning>
+    <pronuncation>EU</pronuncation>
+    <antonyms>Mega</antonyms>
+    
+  </cd>
+  <cd>
+    <word>Covet</word>
+    <meaning>Wish</meaning>
+    <pronuncation>USA</pronuncation>
+    <antonyms>Grammy</antonyms>
+    
+  </cd>
+
+</catalog>
+

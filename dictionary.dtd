@@ -1,0 +1,25 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT catalog (cd)+>
+<!ATTLIST catalog
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT cd (word,meaning,pronuncation,antonyms)>
+<!ATTLIST cd
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT word (#PCDATA)>
+<!ATTLIST word
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT meaning (#PCDATA)>
+<!ATTLIST meaning
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT pronuncation (#PCDATA)>
+<!ATTLIST pronuncation
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT antonyms (#PCDATA)>
+<!ATTLIST antonyms
+  xmlns CDATA #FIXED ''>

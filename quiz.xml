@@ -1,0 +1,80 @@
+<quiz>
+<title>Vocabulary Quiz</title>
+<items>
+<item>
+<question>Click the best synonym for blind</question>
+<answer correct="y">cannot see</answer>
+<answer>seen</answer>
+<answer>private</answer>
+<answer>watch</answer>
+</item>
+<item>
+<question> Select the most appropriate synonym of the given word.
+Fleeting</question>
+<answer>Transparent</answer>
+<answer correct="y">Transient</answer>
+<answer>Tranquil</answer>
+<answer> Tepid</answer>
+</item>
+<item>
+<question>Select the wrongly spelt word.</question>
+<answer>Deleterious</answer>
+<answer correct="y">Connivence</answer>
+<answer>Chauvinist</answer>
+<answer>Encomium</answer>
+</item>
+<item>
+<question>Which is a synonym of ethereal?</question>
+<answer>wet</answer>
+<answer>lonely</answer>
+<answer>silky</answer>
+<answer correct="y">airy</answer>
+</item>
+<item>
+<question>We paid the shopkeeper………cash.</question>
+<answer correct="y">in</answer>
+<answer>on</answer>
+<answer>with</answer>
+<answer>for</answer>
+</item>
+<item>
+<question>Select the most appropriate antonym of the given word.
+Lax</question>
+<answer correct="y">Firm</answer>
+<answer>Careless</answer>
+<answer>Loot</answer>
+<answer>Fiction</answer>
+</item>
+<item>
+<question>Select the wrongly spelt word.</question>
+<answer>Excitement</answer>
+<answer>Attitude</answer>
+<answer>beautiful</answer>
+<answer correct="y">Vaccum</answer>
+</item>
+<item>
+<question>Select the word which means the same as the group of words given.
+Secret or illegal religious meeting</question>
+<answer correct="y">Conventicler</answer>
+<answer>Carrion</answer>
+<answer>Savant</answer>
+<answer> Haggle</answer>
+</item>
+<item>
+<question>Select the word which means the same as the group of words given.
+A story that expresses ideas through symbols</question>
+<answer>Almanac</answer>
+<answer>Axiom</answer>
+<answer correct="y">Allegory</answer>
+<answer>Anomaly</answer>
+</item>
+<item>
+<question>Select the most appropriate synonym of the given word.
+Guile</question>
+<answer>Hot</answer>
+<answer>Honest</answer>
+<answer correct="y">Chicanery</answer>
+<answer>Charming</answer>
+</item>
+</items>
+</quiz>
